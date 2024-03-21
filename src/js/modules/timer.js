@@ -1,6 +1,6 @@
 const timer = (id, deadline) => {
   const getTimerRemaining = (endtime) => {
-    const t = Date.parse(endtime) - Date.parse(new Date());
+    const t = Date.parse(endtime.replace(/-/g, "/")) - Date.parse(new Date());
     const seconds = Math.floor((t / 1000) % 60);
     const minutes = Math.floor((t / 1000 / 60) % 60);
     const hours = Math.floor((t / 1000 / 60 / 60) % 24);

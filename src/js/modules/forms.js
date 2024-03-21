@@ -60,7 +60,10 @@ const forms = (state) => {
       //_ Отправка данных на сервер
       postData("assets/server.php", formData)
         .then((res) => {
-          console.log(res);
+          // console.log(res);
+          console.log(
+            "На gh pages отправка формы на сервер, к сожалению, не сработает, но сообщение благодарности все равно появится"
+          );
           statusMessage.textContent = message.success;
         })
         .catch(() => (statusMessage.textContent = message.failrule))
