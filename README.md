@@ -4,4 +4,4 @@
  - ### В проекте реализованы табы, модальные окна c калькулятором и таймер до конца текущего дня
  - ### Технологии - `javascript`, `css`, `gulp`, `html`, `bootstrap`, `animate-css`, `slick-slider`
 
-![react_showcase](windows.png)
+![](windows.png)
